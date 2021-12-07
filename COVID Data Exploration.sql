@@ -138,3 +138,4 @@ ON deaths.location = vacc.location AND deaths.date = vacc.date
 WHERE deaths.continent IS NOT NULL 
 )
 SELECT *, (RollingVaccinations/population)*100 AS PercentagePopVacc FROM PercVacc
+
